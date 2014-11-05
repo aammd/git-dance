@@ -2,7 +2,10 @@
 title: "git dancin'"
 author: "Andrew MacDonald"
 date: '2014-11-05'
-output: ioslides_presentation
+output: 
+  ioslides_presentation:
+    incremental: true
+    transition: faster
 ---
 
 
@@ -12,46 +15,43 @@ output: ioslides_presentation
 ## git is also a lot like dancing
 <img src="bear.gif" height = 600 width = 600></img> 
 
-You can dance on your own ..
-=======================================================
+## You can dance on your own ..
 <img src="smith1.gif" height = 600 width = 600></img> 
 
-.. or with your friends
-=======================================================
+## .. or with your friends
 <img src="group.gif" height = 500 width = 900></img> 
 
-But alone or in groups, git is fun & useful! 
-=======================================================
-incremental: true
-git is a useful tool for
-* tracking changes to files
-* organizing projects
-* **sharing** data and code 
+## But alone or in groups, git is fun & useful!
 
-Today: the Basic Step
-=======================================================
-incremental: true
+git is a useful tool for
+
+- tracking changes to files
+- organizing projects
+- **sharing** data and code 
+
+## Today: the Basic Step
+
 ![rog](mr-rogers.gif)
-***
+
 * starting a repo
 * making commits
 * using remotes
 
-Dancing shoes:
-=======================================================
-* Rstudio
-* git
-* git bash (windows)
+# Dancing shoes:
 
-Start the music!
-=======================================================
-incremental: true
-1. create a new directory 
- * <small> suggestion: not in your desktop </small>
-1. open git bash or terminal
+## the necessary equipment
 
-=======================================================
-incremental: true
+- Rstudio
+- git
+- git bash (windows)
+
+## Start the music!
+- create a new directory 
+       <p style="font-size:11px"> suggestion: not in your desktop </p>
+- open git bash or terminal
+
+## In a terminal
+
 ```sh
 cd path/to/your/directory
 ```
@@ -59,93 +59,92 @@ cd path/to/your/directory
 git init
 ```
 
-=======================================================
-incremental: true
-1. open a text editor
- * <small> something simple: notepad, gedit, `nano` </small>
-1. write out the title of a project you're working on:
+## Do some work
 
-```
+- open a text editor
+   <small> something simple: notepad, gedit, `nano` </small>
+- write out the title of a project you're working on:
+
+```txt
 # This is my title
 ```
 
-1. save in your new directory as **README.md**
+- save in your new directory as **README.md**
 
-Back in the command line:
-=======================================================
-incremental: true
+## Back in the command line:
 
-* `git status`
-* `git add README.md`
-* `git commit -m "adding a readme file"`
+- `git status`
+- `git add README.md`
+- `git commit -m "adding a readme file"`
 
-Back in the editor:
-=======================================================
-incremental: true
+## Back in the editor:
+- add your name
+- save
+- `git status`
+- `git add .`
+- `git commit -m "adding my name"`
 
-* add your name
-* save
-* `git status`
-* `git add .`
-* `git commit -m "adding my name"`
+## The Step:
 
-The Step:
-=======================================================
-incremental: true
+- **work**
+- **save**
+- `git add .`
+- `git commit `
+- **work**
+- **save**
+- `git add .`
+- `git commit `
 
-* **work**
-* **save**
-* `git add .`
-* `git commit `
-* **work**
-* **save**
-* `git add .`
-* `git commit `
+## Let's take a look at our progress
+```bash
+git log
+```
+```bash
+git log -p -3
+```
 
-=======================================================
-* `git log`
-* `git log -p -3`
+## how git stores data {.flexbox .vcenter}
+<img src = "snapshots.png" height = 300></img>
 
-Technical explanation
-=======================================================
-![snap](snapshots.png)
+## The Three Areas  {.flexbox .vcenter}
+<img src = "areas.png" height = 300></img>
 
-Technical explanation
-=======================================================
-![areas](areas.png)
+**This is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three main states that your files can reside in: *committed*, *modified*, and *staged***. [git book](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
->**[This is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three main states that your files can reside in: *committed*, *modified*, and *staged*.](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics)**
+## Other steps (if we have time):
+- To the side!
+```
+git branch
+```
+- To the back!
+```
+git checkout
+```
 
-Other steps (if we have time):
-=======================================================
-* To the side!
-  - `git branch`
-* To the back!
-  - `git checkout`
+# Get out on the floor
 
-Get out on the floor:
-=======================================================
-Add a remote repository:
+## Add a remote repository:
 
-* First, go to github and start a repository
-* Follow the steps!
-
+- First, go to github and start a repository
+- Follow the steps!
 ```shell
 git remote add origin https://github.com/aammd/practice.git
 git push -u origin master
 ```
-* [Rstudio buttons greyed out?](http://landeco2point0.wordpress.com/2014/07/22/things-i-forget-pushpull-greyed-out-in-rstudio/)
+- [Rstudio buttons greyed out?](http://landeco2point0.wordpress.com/2014/07/22/things-i-forget-pushpull-greyed-out-in-rstudio/)
 
 
-Github
-=======================================================
-* Organizing classes [course](https://github.com/STAT545-UBC/STAT545-UBC.github.io) [website](http://stat545-ubc.github.io/)
-* Lab groups: [Weecology](https://github.com/weecology)
-* Models e.g. *Mutualists and Dispersal* [model](https://github.com/tpoisot/ProtectiveMutualismModel) [paper](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1151/full)
-* R packages [codyn](https://github.com/laurenmh/codyn), [dplyr](https://github.com/hadley/dplyr), [vegan](https://github.com/vegandevs/vegan), (see for example [Matt Barbour's contribution](https://github.com/vegandevs/vegan/blob/6c108fa55254aa06c0286f8b4e4bdecf4260eae0/inst/ChangeLog#L235) )
-* [Make your code citable](https://guides.github.com/activities/citable-code/)
+## Github
 
-Cloning a repository
-======================================================
+- Organizing classes [course](https://github.com/STAT545-UBC/STAT545-UBC.github.io) [website](http://stat545-ubc.github.io/)
+- Lab groups: [Weecology](https://github.com/weecology)
+- Models e.g. *Mutualists and Dispersal* [model](https://github.com/tpoisot/ProtectiveMutualismModel) [paper](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1151/full)
+- R packages [codyn](https://github.com/laurenmh/codyn), [dplyr](https://github.com/hadley/dplyr), [vegan](https://github.com/vegandevs/vegan), (see for example [Matt Barbour's contribution](https://github.com/vegandevs/vegan/blob/6c108fa55254aa06c0286f8b4e4bdecf4260eae0/inst/ChangeLog#L235) )
+- [Make your code citable](https://guides.github.com/activities/citable-code/)
+
+## Cloning a repository
 Cloning a repository gives you a copy
-Let's [clone this repository](https://github.com/aammd/git-dance)
+Let's clone this repository 
+```html
+https://github.com/aammd/git-dance
+```
