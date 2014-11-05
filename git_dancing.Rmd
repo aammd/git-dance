@@ -1,31 +1,26 @@
-Git dancin'
-========================================================
-author: Andrew MacDonald
-date: 05 Nov 2013
-autosize: TRUE
-transition: rotate
+---
+title: "git dancin'"
+author: "Andrew MacDonald"
+date: '2014-11-05'
+output: ioslides_presentation
+---
 
-git is a distributed version control system
-=======================================================
+
+## git is a distributed version control system
 ![distrib](branching-illustration@2x.png)
 
-git is also a lot like dancing
-=======================================================
-<img src="bear.gif" height = 700 width = 700></img> 
+## git is also a lot like dancing
+<img src="bear.gif" height = 600 width = 600></img> 
 
 You can dance on your own ..
 =======================================================
+<img src="smith1.gif" height = 600 width = 600></img> 
 
-.. or in huge groups
+.. or with your friends
 =======================================================
+<img src="group.gif" height = 500 width = 900></img> 
 
-Some people can get very fancy with it
-=======================================================
-
-other people are much simpler
-=======================================================
-
-But all of us love it
+But alone or in groups, git is fun & useful! 
 =======================================================
 incremental: true
 git is a useful tool for
