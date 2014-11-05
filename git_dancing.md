@@ -142,5 +142,15 @@ git push -u origin master
 * [Rstudio buttons greyed out?](http://landeco2point0.wordpress.com/2014/07/22/things-i-forget-pushpull-greyed-out-in-rstudio/)
 
 
-
+Github
 =======================================================
+* Organizing classes [course](https://github.com/STAT545-UBC/STAT545-UBC.github.io) [website](http://stat545-ubc.github.io/)
+* Lab groups: [Weecology](https://github.com/weecology)
+* Models e.g. *Mutualists and Dispersal* [model](https://github.com/tpoisot/ProtectiveMutualismModel) [paper](http://onlinelibrary.wiley.com/doi/10.1002/ece3.1151/full)
+* R packages [codyn](https://github.com/laurenmh/codyn), [dplyr](https://github.com/hadley/dplyr), [vegan](https://github.com/vegandevs/vegan), (see for example [Matt Barbour's contribution](https://github.com/vegandevs/vegan/blob/6c108fa55254aa06c0286f8b4e4bdecf4260eae0/inst/ChangeLog#L235) )
+* [Make your code citable](https://guides.github.com/activities/citable-code/)
+
+Cloning a repository
+======================================================
+Cloning a repository gives you a copy
+Let's [clone this repository](https://github.com/aammd/git-dance)
