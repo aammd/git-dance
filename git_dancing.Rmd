@@ -10,16 +10,16 @@ output:
 
 
 ## git is a distributed version control system
-![distrib](branching-illustration@2x.png)
+![distrib](images/branching-illustration@2x.png)
 
 ## git is also a lot like dancing
-<img src="bear.gif" height = 600 width = 600></img> 
+<img src="images/bear.gif" height = 600 width = 600></img> 
 
 ## You can dance on your own ..
-<img src="smith1.gif" height = 600 width = 600></img> 
+<img src="images/smith1.gif" height = 600 width = 600></img> 
 
 ## .. or with your friends
-<img src="group.gif" height = 500 width = 900></img> 
+<img src="images/group.gif" height = 500 width = 900></img> 
 
 ## But alone or in groups, git is fun & useful!
 
@@ -31,7 +31,7 @@ git is a useful tool for
 
 ## Today: the Basic Step
 
-![rog](mr-rogers.gif)
+![rog](images/mr-rogers.gif)
 
 * starting a repo
 * making commits
@@ -104,10 +104,10 @@ git log -p -3
 ```
 
 ## how git stores data {.flexbox .vcenter}
-<img src = "snapshots.png" height = 300></img>
+<img src = "images/snapshots.png" height = 300></img>
 
 ## The Three Areas  {.flexbox .vcenter}
-<img src = "areas.png" height = 300></img>
+<img src = "images/areas.png" height = 300></img>
 
 **This is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three main states that your files can reside in: *committed*, *modified*, and *staged***. [git book](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
