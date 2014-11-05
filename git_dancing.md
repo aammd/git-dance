@@ -12,14 +12,14 @@ output:
 ## git is a distributed version control system
 ![distrib](images/branching-illustration@2x.png)
 
-## git is also a lot like dancing
-<img src="images/bear.gif" height = 600 width = 600></img> 
+## git is also a lot like dancing  {.flexbox .vcenter}
+<img src="images/bear.gif" height = 400 width = 500></img> 
 
-## You can dance on your own ..
-<img src="images/smith1.gif" height = 600 width = 600></img> 
+## You can dance on your own ..  {.flexbox .vcenter}
+<img src="images/smith1.gif" height = 400 width = 500></img> 
 
-## .. or with your friends
-<img src="images/group.gif" height = 500 width = 900></img> 
+## .. or with your friends  {.flexbox .vcenter}
+<img src="images/group.gif" height = 400 width = 700></img> 
 
 ## But alone or in groups, git is fun & useful!
 
@@ -28,6 +28,7 @@ git is a useful tool for
 - tracking changes to files
 - organizing projects
 - **sharing** data and code 
+- I love it!!!
 
 ## Today: the Basic Step
 
@@ -73,27 +74,47 @@ git init
 
 ## Back in the command line:
 
-- `git status`
-- `git add README.md`
-- `git commit -m "adding a readme file"`
+```sh
+git status
+```
+```sh
+git add README.md
+```
+```sh
+git commit -m "adding a readme file"
+````
 
 ## Back in the editor:
 - add your name
 - save
-- `git status`
-- `git add .`
-- `git commit -m "adding my name"`
+```sh
+git status
+```
+```sh
+git add .
+```
+```sh
+git commit -m "adding my name"
+```
 
 ## The Step:
 
 - **work**
 - **save**
-- `git add .`
-- `git commit `
+```sh
+git add
+```
+```sh
+git commit
+```
 - **work**
 - **save**
-- `git add .`
-- `git commit `
+```sh
+git add
+```
+```sh
+git commit
+```
 
 ## Let's take a look at our progress
 ```bash
@@ -111,7 +132,7 @@ git log -p -3
 
 **This is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three main states that your files can reside in: *committed*, *modified*, and *staged***. [git book](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
-## Other steps (if we have time):
+## Other steps (if we have time): {.build}
 - To the side!
 ```
 git branch
