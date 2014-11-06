@@ -21,6 +21,12 @@ output:
 
 ## Troubleshooting
 
+### Cannot find the git directory
+
+* In Finder, go to `Go` and type in the folder `\usr`
+* Drag this folder to `Favorites` (in the left-hand toolbar)
+* Now when you browse for git, you can access the `\usr` folder and look in `bin` for the application `git`
+
 ### Error r error 4 ...
 
 From [this page](https://support.rstudio.com/hc/communities/public/questions/200764217-new-user-installation-problem-Mac-)
