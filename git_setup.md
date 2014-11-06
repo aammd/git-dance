@@ -19,6 +19,10 @@ output:
 
 ## Snow Leopard
 
+### Download and Install Git
+
+### Download and Install RStudio
+
 ## Troubleshooting
 
 ### Cannot find the git directory
