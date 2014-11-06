@@ -9,11 +9,13 @@ output:
 
 # Windows
 
-## 8.1
+## 8+
 
 ### Download and Install Git
 
 ### Download and Install RStudio
+
+[Get Rstudio here](http://download1.rstudio.org/RStudio-0.98.1087.exe).
 
 # Mac
 
