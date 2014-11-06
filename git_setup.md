@@ -27,9 +27,10 @@ output:
 
 ### Cannot find the git directory
 
-* In Finder, go to `Go` and type in the folder `\usr`
+* In a terminal, type `which git` to find where Git is installed
+* In Finder, go to `Go` and type in the folder you found above
 * Drag this folder to `Favorites` (in the left-hand toolbar)
-* Now when you browse for git, you can access the `\usr` folder and look in `bin` for the application `git`
+* Now when you browse for git within RStudio, you can access the folder and find the application `git`
 
 ### Error r error 4 ...
 
